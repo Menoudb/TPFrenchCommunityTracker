@@ -6,7 +6,7 @@
       {
         "type": "itemgrid",
         "h_alignment": "left",
-        "item_size": 60,
+        "item_size": 50,
         "item_margin": "0,0,10,5",
         "rows": [
           [ "rod", "slingshot", "lantern", "boomerang", "irons"           ],
@@ -42,28 +42,6 @@
       {
         "type": "layout",
         "key": "dungeon_grid_tall"
-      }
-    ]
-  },
-  "item_grid_wide": {
-    "type": "array",
-    "orientation": "vertical",
-    "content": [
-      {
-        "type": "itemgrid",
-        "h_alignment": "left",
-        "item_size": 36,
-        "item_margin": "0,0,10,5",
-        "rows": [
-          [ "rod", "slingshot", "lantern", "boomerang", "irons"          ],
-          [ "bow", "bomb1", "clawshot", "spinner", "chainball"            ],
-          [ "brokedominion", "letters1", "sword1", "skills", "bluetunic"  ],
-          [ "shadcrystal", "gate", "auru", "ashei","soul"                 ]
-        ]
-      },
-      {
-        "type": "layout",
-        "key": "dungeon_grid_wide"
       }
     ]
   }

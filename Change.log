@@ -1,5 +1,5 @@
 ------------------------------------------------------------------
-  #### Version 1.0 ####
+  #### Version 1.1 ####
   #####################
   Based on Lunar_soap maptracker
   
@@ -18,6 +18,16 @@
 		- Renamed regions according to french standard hint
 		- Renamed checks in order to match their spoiler log names
 		- Merged overwold and golden bugs checks in the main tab
+
+	- Map Tracker
 		- Added 1 tab per dungeon where logic is applied
 		- Added keys, Big keys, cheeses in item tracker
+
+	- Map Tracker light
+		- Same as Map tracker without Keys, BKeys and dungeon maps
+
+	- Item Tracker
+		- Items only without keys, BKeys
+
+
 -------------------------------------------------------------------

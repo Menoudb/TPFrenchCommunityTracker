@@ -1,0 +1,83 @@
+{
+  "tracker_right_map": 
+  {
+    "type": "container",
+    "background": "#282828",
+    "content": 
+    {
+      "type": "dock",
+      "dropshadow": false,
+      "content": 
+      [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "margin": "0,0,3,0",
+          "content": 
+          [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "top",
+              "content": 
+              {
+                "type": "layout",
+                "key": "item_grid_tall"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "content": [
+            {
+              "type": "tabbed",
+              "dock": "top",
+              "tabs": [
+                {
+                  "title": "Main",
+                  "icon": "images/master-sword.png",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "Main"
+                    ]
+                  }
+                },
+                {
+                  "title": "Poes",
+                  "icon": "images/soul.png",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "Poes"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "content": [
+            {
+              "type": "group",
+              "dock": "bottom",
+              "header": "Pinned Locations",
+              "content": {
+                "type": "recentpins",
+                "style": "wrap",
+                "h_alignment": "stretch",
+                "v_alignment": "stretch",
+                "orientation": "horizontal",
+                "compact": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
