@@ -10,8 +10,8 @@
       ],
       "version": "1.0",
       "uid": "tptracker_menou",
-      "link": "",
-      "documentation_url": "",
+      "link": "https://github.com/Menoudb/TPFrenchCommunityTracker/blob/main/tptracker_menou.zip",
+      "documentation_url": "https://github.com/Menoudb/TPFrenchCommunityTracker/blob/main/README.md",
       "variants": [        
         {
           "name": "Map Tracker",

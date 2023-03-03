@@ -24,15 +24,10 @@
   {
     "name": "Bombs",
     "type": "progressive",
-    "allow_disabled": false,
     "stages": [
       {
         "img": "images/bombbag.png",
-        "img_mods": "@disabled",
         "codes": "bombs1,bombbag1,bomb1"
-      },
-      {
-        "img": "images/bombbag.png"
       },
       {
         "img": "images/bomb.png"
@@ -49,15 +44,10 @@
   {
     "name": "Bombs",
     "type": "progressive",
-    "allow_disabled": false,
     "stages": [
       {
         "img": "images/bombbag.png",
-        "img_mods": "@disabled",
         "codes": "bombs2,bombbag2,bomb2"
-      },
-      {
-        "img": "images/bombbag.png"
       },
       {
         "img": "images/bomb.png"
@@ -74,15 +64,10 @@
   {
     "name": "Bombs",
     "type": "progressive",
-    "allow_disabled": false,
     "stages": [
       {
         "img": "images/giantbombbag.png",
-        "img_mods": "@disabled",
         "codes": "bombs3,bombbag3,bomb3"
-      },
-      {
-        "img": "images/giantbombbag.png"
       },
       {
         "img": "images/GiantBombs2.png"
@@ -126,7 +111,8 @@
         "codes": "rod"
       },
       {
-        "img": "images/earring.png"
+        "img": "images/earring.png",
+        "codes": "earring"
       }
     ]
   },
@@ -134,26 +120,38 @@
   {
     "name": "Temple Entry",
     "type": "progressive",
-    "allow_disabled": false,
     "stages": [
-      {
-        "img": "images/memo.png",
-        "img_mods": "@disabled"
-      },
       {
         "img": "images/memo.png",
         "codes": "entry"
       },
       {
         "img": "images/sketch.png",
-        "codes": "entry"
+        "codes": "entry2"
       },
       {
         "img": "images/golden.png",
-        "codes": "entry"
+        "codes": "entry3"
       }
     ]
   },
+
+  // Auru
+  {
+    "name": "Auru",
+    "type": "toggle",
+    "img": "images/auru.png",
+    "codes": "auru"
+  },
+
+  // Ashei
+  {
+    "name": "Ashei",
+    "type": "toggle",
+    "img": "images/ashei.png",
+    "codes": "ashei"
+  },
+
 
   // Scents
   {
@@ -190,8 +188,7 @@
     "stages": [
       {
         "img": "images/letter.png",
-        "img_mods": "@disabled",
-        "codes": "charm"
+        "img_mods": "@disabled"
       },
       {
         "img": "images/letter.png",
@@ -485,10 +482,12 @@
         "codes": "wallet"
       },
       {
-        "img": "images/bigwallet.png"
+        "img": "images/bigwallet.png",
+        "codes": "wallet2"
       },
       {
-        "img": "images/giantwallet.png"
+        "img": "images/giantwallet.png",
+        "codes": "wallet3"
       }
     ]
   },
@@ -508,20 +507,79 @@
     "codes": "heartcontainer,container,HC",
     "max_quantity": 8
   },
-  // Skybook Letters
+  //Skybook Letters
   {
     "name": "Letters",
     "type": "consumable",
     "img": "images/skybook.png",
     "codes": "letters",
-    "max_quantity": 7
+    "min_quantity": 3,
+    "max_quantity": 6
   },
-  // Wooden Sword
+
+    //Skybook Letters Progressive
+   {
+    "name": "Letters_progressive",
+    "type": "progressive_toggle",
+"loop": true,
+    "allow_disabled": false,
+
+"stages": [
+	  {
+	  "img": "images/skybook.png",
+	  "codes": "letters1, sky0",
+	  },
+      {
+	  "img": "images/sky1.png",
+	   "codes": "letters1, sky1",
+      },
+      {
+        "img": "images/sky2.png",
+        "codes": "letters1, sky2",
+  },
+      {
+        "img": "images/sky3.png",
+        "codes": "letters1, sky3",
+      },
+      {
+        "img": "images/sky4.png",
+        "codes": "letters1, sky4",
+      },
+      {
+        "img": "images/sky5.png",
+        "codes": "letters1, sky5",
+      },
+      {
+        "img": "images/sky6.png",
+        "codes": "letters1, sky6",
+      },
+],
+
+  },
+
+
+  // Ordon Swords
   {
-    "name": "Wooden Sword",
-    "type": "toggle",
-    "img": "images/wooden-sword.png",
-    "codes": "sword1"
+    "name": "Ordon Swords",
+    "type": "Progressive",
+	"stages": [
+      {
+        "img": "images/wooden-sword.png",
+		"codes": "sword1"
+      },
+      {
+        "img": "images/ordon-sword.png",
+		"codes": "sword2"
+      },
+{
+        "img": "images/master-sword.png",
+        "codes": "sword3,mastersword,ms"
+      },
+{
+        "img": "images/master-sword-light.png",
+        "codes": "sword4,buttersword"
+      }
+    ]
   },
   // Master Sword
   {
@@ -533,16 +591,17 @@
         "codes": "sword3,mastersword,ms"
       },
       {
-        "img": "images/master-sword-light.png"
+        "img": "images/master-sword-light.png",
+        "codes": "sword4,buttersword"
       }
     ]
   },
-  // Ordon Sword
+  // Shadow Crystal
   {
-    "name": "Ordon Sword",
-    "type": "toggle",
-    "img": "images/ordon-sword.png",
-    "codes": "sword2"
+    "name": "Shadow Crystal",
+    "type": "static",
+    "img": "images/shad-crystal.png",
+    "codes": "shadcrystal"
   },
   // Wooden Shield
   {
@@ -572,6 +631,14 @@
     "type": "toggle",
     "img": "images/hylian-shield.png",
     "codes": "shield3,hylianshield"
+  },
+
+  // Gate Key
+  {
+    "name": "Gate Key",
+    "type": "static",
+    "img": "images/key-small.png",
+    "codes": "gate,gatekey"
   },
   // Poe Souls
   {
