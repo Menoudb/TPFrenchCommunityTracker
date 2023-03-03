@@ -1,0 +1,23 @@
+------------------------------------------------------------------
+  #### Version 1.0 ####
+  #####################
+  Based on Lunar_soap maptracker
+  
+	- Quality of Life Updates		
+		- Item grid rework
+		- Adjusted Map cropping
+		- Adjusted Sprite Outlines
+		- Remove Drop Shadow Outlines to the Fused Shadows
+
+	- Integrity Changes
+		- Added Skybooks as progressive items
+		- Merged Sword 1, 2 3 and 4 as progressive items
+		- Added dungeon name with fused Shadows
+		- fixed overwold logic according to french standard
+		- fixed dungeon logic accessibility according to french standard
+		- Renamed regions according to french standard hint
+		- Renamed checks in order to match their spoiler log names
+		- Merged overwold and golden bugs checks in the main tab
+		- Added 1 tab per dungeon where logic is applied
+		- Added keys, Big keys, cheeses in item tracker
+-------------------------------------------------------------------

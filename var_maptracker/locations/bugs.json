@@ -1,0 +1,558 @@
+[
+  {
+    "name": "World",
+    "chest_unopened_img": "images/Golden_Bug.png",
+    "chest_opened_img": "images/Golden_Bug-grey.png",
+    "children": 
+    [
+      {
+        "name": "Faron Field",
+        "sections": [
+          {
+            "name": "Male Bettle",
+            "access_rules": [
+              ""
+            ],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 643,
+            "y": 777
+          }
+        ]
+      },
+      {
+        "name": "Faron Field",
+        "sections": [
+          {
+            "name": "Female Bettle",
+            "access_rules": [
+              "rang",
+              "cs",
+              "dcs"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 688,
+            "y": 734
+          }
+        ]
+      },
+      {
+        "name": "Kakariko Gorge",
+        "sections": [
+          {
+            "name": "Male Pill Bug",
+            "access_rules": [
+              ""
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 780,
+            "y": 670
+          }
+        ]
+      },
+      {
+        "name": "Kakariko Gorge",
+        "sections": [
+          {
+            "name": "Female Pill Bug",
+            "access_rules": [
+              ""
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 818,
+            "y": 682
+          }
+        ]
+      },
+      {
+        "name": "Kakariko Graveyard",
+        "sections": [
+          {
+            "name": "Male Ant",
+            "access_rules": [
+              ""
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 1015,
+            "y": 674
+          }
+        ]
+      },
+      {
+        "name": "Kakariko Village",
+        "sections": [
+          {
+            "name": "Female Ant",
+            "access_rules": [
+              ""
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 969,
+            "y": 656
+          }
+        ]
+      },
+      {
+        "name": "Eldin Field",
+        "sections": [
+          {
+            "name": "Male Grasshopper",
+            "access_rules": [
+              ""
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 895,
+            "y": 510
+          }
+        ]
+      },
+      {
+        "name": "Eldin Field",
+        "sections": [
+          {
+            "name": "Female Grasshopper",
+            "access_rules": [
+              ""
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 800,
+            "y": 432
+          }
+        ]
+      },
+      {
+        "name": "Eldin Field",
+        "sections": [
+          {
+            "name": "Male Phasmid",
+            "access_rules": [
+              "rang",
+              "cs",
+              "dcs"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 943,
+            "y": 414
+          }
+        ]
+      },
+      {
+        "name": "Northeast Hyrule Field",
+        "sections": [
+          {
+            "name": "Female Phasmid",
+            "access_rules": [
+              "cs",
+              "boomerang"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 960,
+            "y": 333
+          }
+        ]
+      },
+      {
+        "name": "Great Bridge of Hylia",
+        "sections": [
+          {
+            "name": "Male Mantis",
+            "access_rules": [
+              "rang, gate",
+              "rang, $can_smash",
+              "cs, gate", 
+              "cs, $can_smash",
+              "dcs, gate", 
+              "dcs, $can_smash"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 494,
+            "y": 578
+          }
+        ]
+      },
+      {
+        "name": "Great Bridge of Hylia",
+        "sections": [
+          {
+            "name": "Female Mantis",
+            "access_rules": [
+              "rang, gate",
+              "rang, $can_smash",
+              "cs, gate", 
+              "cs, $can_smash",
+              "dcs, gate", 
+              "dcs, $can_smash"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 513,
+            "y": 677
+          }
+        ]
+      },
+      {
+        "name": "Zora's Domain",
+        "sections": [
+          {
+            "name": "Male Dragonfly",
+            "access_rules": [
+              "shadcrystal, gate",
+              "shadcrystal, $can_smash"
+
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 666,
+            "y": 143
+          }
+        ]
+      },
+      {
+        "name": "Upper Zora's River",
+        "sections": [
+          {
+            "name": "Female Dragonfly",
+            "access_rules": [
+              "$can_smash,shadcrystal,cs",
+              "$can_smash,shadcrystal,dcs",
+              "$can_smash,shadcrystal,rang",
+              "gate,shadcrystal,cs",
+              "gate,shadcrystal,dcs",
+              "gate,shadcrystal,rang"
+
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 787,
+            "y": 165
+          }
+        ]
+      },
+      {
+        "name": "Outside West Castle Town",
+        "sections": [
+          {
+            "name": "Male Butterfly",
+            "access_rules": [
+              "gate",
+              "$can_smash"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 559,
+            "y": 528
+          }
+        ]
+      },
+      {
+        "name": "Outside West Castle Town",
+        "sections": [
+          {
+            "name": "Female Butterfly",
+            "access_rules": [
+              "rang, gate",
+              "rang, $can_smash",
+              "cs, gate", 
+              "cs, $can_smash",
+              "dcs, gate", 
+              "dcs, $can_smash"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 546,
+            "y": 481
+          }
+        ]
+      },
+      {
+        "name": "Lanayru Field",
+        "sections": [
+          {
+            "name": "Male Stag Beetle",
+            "access_rules": [
+              "rang, gate",
+              "rang, $can_smash",
+              "cs, gate", 
+              "cs, $can_smash",
+              "dcs, gate", 
+              "dcs, $can_smash"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 607,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Lanayru Field",
+        "sections": [
+          {
+            "name": "Female Stag Beetle",
+            "access_rules": [
+              "rang, gate",
+              "rang, $can_smash",
+              "cs, gate", 
+              "cs, $can_smash",
+              "dcs, gate", 
+              "dcs, $can_smash"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 639,
+            "y": 306
+          }
+        ]
+      },
+      {
+        "name": "Outside South Castle Town",
+        "sections": [
+          {
+            "name": "Female Ladybug",
+            "access_rules": [
+              "gate",
+              "$can_smash"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 630,
+            "y": 565
+          }
+        ]
+      },
+      {
+        "name": "Outside South Castle Town",
+        "sections": [
+          {
+            "name": "Male Ladybug",
+            "access_rules": [
+              "gate",
+              "$can_smash"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 661,
+            "y": 577
+          }
+        ]
+      },
+      {
+        "name": "Gerudo Desert",
+        "sections": [
+          {
+            "name": "Male Dayfly",
+            "access_rules": [
+              "shadcrystal, auru"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 273,
+            "y": 752
+          }
+        ]
+      },
+      {
+        "name": "Gerudo Desert",
+        "sections": [
+          {
+            "name": "Female Dayfly",
+            "access_rules": [
+              "shadcrystal, auru"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 218,
+            "y": 740
+          }
+        ]
+      },
+      {
+        "name": "Sacred Grove & Lost Woods",
+        "sections": [
+          {
+            "name": "Male Snail",
+            "access_rules": [
+              "shadcrystal, cs",
+              "shadcrystal, dcs",
+              "shadcrystal, rang"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 529,
+            "y": 870
+          }
+        ]
+      },
+      {
+        "name": "Sacred Grove & Lost Woods",
+        "sections": [
+          {
+            "name": "Female Snail",
+            "access_rules": [
+              "shadcrystal, cs",
+              "shadcrystal, dcs",
+              "shadcrystal, rang"
+
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/Golden_Bug.png",
+            "chest_opened_img": "images/Golden_Bug-grey.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Golden Bugs",
+            "x": 509,
+            "y": 870
+          }
+        ]
+      }
+    ]
+  }
+]

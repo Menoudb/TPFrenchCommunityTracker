@@ -1,0 +1,12 @@
+﻿{
+  "name": "Twilight Princess Item Tracker",
+  "game_name": "Twilight Princess",
+  "package_version": "1.0",
+  "package_uid": "tptracker_menou",
+  "author": "Menou & Lunar Soap",
+  "variants": {    
+    "var_maptracker": {
+      "display_name": "Map Tracker"
+    }
+  }
+}

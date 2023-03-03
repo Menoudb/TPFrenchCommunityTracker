@@ -1,0 +1,27 @@
+{
+  "name": "Menou French Community Map Trackers",
+  "packages": [
+    {
+      "name": "Twilight Princess Item Tracker",
+      "author": "Menou & Lunar Soap",
+      "game_name": "Twilight Princess",
+      "flags": [
+        "map"
+      ],
+      "version": "1.0",
+      "uid": "tptracker_menou",
+      "link": "",
+      "documentation_url": "",
+      "variants": [        
+        {
+          "name": "Map Tracker",
+          "flags": [
+            "map",
+            "pins",
+            "chathud"
+          ]
+        }
+      ]
+    }
+  ]
+}
