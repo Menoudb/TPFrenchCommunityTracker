@@ -799,7 +799,7 @@
           {
             "name": "Stockcave Lowest Chest",
             "access_rules": [
-              "cs,irons, lantern"
+              "cs,irons"
             ],
             "item_count": 1
           }, 
