@@ -1,8 +1,8 @@
 {
-  "name": "Menou TPR - French Community Settings",
+  "name": "Menou French Community Map Tracker",
   "packages": [
     {
-      "name": "TPR - French Community Settings",
+      "name": "French Community Settings Map Tracker",
       "author": "Menou & Lunar Soap",
       "game_name": "Twilight Princess",
       "flags": [
@@ -10,7 +10,7 @@
       ],
       "version": "1.0",
       "uid": "tptracker_menou",
-      "link": "https://github.com/Menoudb/TPFrenchCommunityTracker/blob/main/tptracker_menou.zip",
+      "link": "https://github.com/Menoudb/TPFrenchCommunityTracker/blob/main/tptracker_menou.zip?raw=true",
       "documentation_url": "https://github.com/Menoudb/TPFrenchCommunityTracker/blob/main/README.md",
       "variants": [        
         {
@@ -36,7 +36,7 @@
           [
             "chathud"
           ]
-        }
+        },
       ]
     }
   ]
