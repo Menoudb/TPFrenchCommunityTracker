@@ -20,8 +20,7 @@
                   {
                     "name": "Aeralfos Chest",
                     "access_rules": [
-                      "City_in_The_Sky_Small_Key, dcs",
-                      "City_in_The_Sky_Small_Key, spinner"
+                      "City_in_The_Sky_Small_Key, spinner, boomerang, iron "
                     ],
                     "item_count": 1
                   }
@@ -70,7 +69,7 @@
                   {
                     "name": "East Wing Lower Level Chest",
                     "access_rules": [
-                      "City_in_The_Sky_Small_Key, dcs"
+                      "City_in_The_Sky_Small_Key, spinner, dcs"
                     ],
                     "item_count": 1
                   }
@@ -138,7 +137,6 @@
                   {
                     "name": "West Wing First Chest",
                     "access_rules": [
-                      "spinner",
                       "dcs"
                     ],
                     "item_count": 1
@@ -215,7 +213,6 @@
                   {
                     "name": "East Tile Worm Small Chest",
                     "access_rules": [
-                      "City_in_The_Sky_Small_Key, dcs",
                       "City_in_The_Sky_Small_Key, spinner"
                     ],
                     "item_count": 1
@@ -235,7 +232,6 @@
                   {
                     "name": "East First Wing Chest After Fans",
                     "access_rules": [
-                      "City_in_The_Sky_Small_Key, dcs",
                       "City_in_The_Sky_Small_Key, spinner"
                     ],
                     "item_count": 1
@@ -342,8 +338,7 @@
                   {
                     "name": "East Wing After Dinalfos Ledge Chest",
                     "access_rules": [
-                      "City_in_The_Sky_Small_Key, dcs",
-                      "City_in_The_Sky_Small_Key, spinner"
+                      "City_in_The_Sky_Small_Key, boomerang, spinner"
                     ],
                     "item_count": 1
                   }
@@ -362,8 +357,7 @@
                   {
                     "name": "East Wing After Dinalfos Alcove Chest",
                     "access_rules": [
-                      "City_in_The_Sky_Small_Key, dcs",
-                      "City_in_The_Sky_Small_Key, spinner"
+                      "City_in_The_Sky_Small_Key, boomerang, spinner"
                     ],
                     "item_count": 1
                   }

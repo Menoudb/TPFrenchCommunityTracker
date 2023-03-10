@@ -1163,7 +1163,19 @@
                   "chainball"
                 ],
                 "item_count": 1
-              }, 
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 635,
+                "y": 290
+              }
+            ]
+          },
+          {
+            "name": "Lanayru Field",
+            "sections": [
               {
                 "name": "Female Stag Beetle",
                 "access_rules": [
@@ -1182,7 +1194,7 @@
             "map_locations": [
               {
                 "map": "Main",
-                "x": 635,
+                "x": 618,
                 "y": 290
               }
             ]

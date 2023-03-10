@@ -145,7 +145,7 @@
                   {
                     "name": "Fyrus Heart Container",
                     "access_rules": [
-                      "Goron_Mines_Small_Key:1,Goron_Mines_Big_Key:3, bow"
+                      "Goron_Mines_Small_Key:1,Goron_Mines_Big_Key:3, bow, sword1"
                     ],
                     "item_count": 1,
                     "chest_unopened_img": "images/HC.png",
@@ -185,7 +185,8 @@
                   {
                     "name": "Outside Underwater Chest",
                     "access_rules": [
-                      "Goron_Mines_Small_Key:1, sword1"
+                      "Goron_Mines_Small_Key:1, sword1",
+                      "Goron_Mines_Small_Key:1, $has_explosives"
                     ],
                     "item_count": 1
                   }
@@ -375,7 +376,7 @@
                   {
                     "name": "Dangoro Chest",
                     "access_rules": [
-                      "Goron_Mines_Small_Key:2, bow"
+                      "Goron_Mines_Small_Key:2"
                     ],
                     "item_count": 1
                   }

@@ -1,5 +1,5 @@
 ------------------------------------------------------------------
-  #### Version 1.1 ####
+  #### Version 1.0 ####
   #####################
   Based on Lunar_soap maptracker
   
@@ -29,5 +29,18 @@
 	- Item Tracker
 		- Items only without keys, BKeys
 
+  #### Version 1.1 ####
+  #####################
+
+  	- Dungeon logic updates
+		- Goron Mines 
+		- Lakebed
+		- Snowpeak ruins
+		- City in the Sky
+		- Hyrule Castle
+
+  	- Overworld
+		- Split Female stag beetle and Ice Block Puzzle Cave Chest
+		
 
 -------------------------------------------------------------------

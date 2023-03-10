@@ -203,7 +203,7 @@
                   {
                     "name": "Lantern Staircase Chest",
                     "access_rules": [
-                      "Hyrule_Castle_Small_Key:1, dcs, boomerang"
+                      "Hyrule_Castle_Small_Key:1, dcs, boomerang, sword1"
                     ],
                     "item_count": 1
                   }

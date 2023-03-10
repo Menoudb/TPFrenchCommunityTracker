@@ -176,7 +176,7 @@
                 "name": "5F",
                 "sections": [
                   {
-                    "name": "Armos Antechamber Statue Chest",
+                    "name": "Armos Antechamber East Chest",
                     "access_rules": [
                       "Temple_of_Time_Small_Key:3"
                     ],
@@ -195,7 +195,7 @@
                 "name": "5F",
                 "sections": [
                   {
-                    "name": "Armos Antechamber East Chest",
+                    "name": "Armos Antechamber Statue Chest",
                     "access_rules": [
                       "Temple_of_Time_Small_Key:3, brokedominion"
                     ],
@@ -214,7 +214,7 @@
                 "name": "5F",
                 "sections": [
                   {
-                    "name": "Moving Wall Dinalfos Room Chest",
+                    "name": "Moving Wall Beamos Room Chest",
                     "access_rules": [
                       "bow"
                     ],
@@ -233,9 +233,9 @@
                 "name": "5F",
                 "sections": [
                   {
-                    "name": "Moving Wall Beamos Room Chest",
+                    "name": "Moving Wall Dinalfos Room Chest",
                     "access_rules": [
-                      "bow"
+                      "bow, brokedominion"
                     ],
                     "item_count": 1
                   }

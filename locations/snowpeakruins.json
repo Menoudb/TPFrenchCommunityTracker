@@ -94,7 +94,7 @@
                 "name": "1F",
                 "sections": [
                   {
-                    "name": "Wooden Beam Northwest Chest",
+                    "name": "Wooden Beam Central Chest",
                     "access_rules": [
                       "chainball",
                       "Ordon_Pumpkin, $has_explosives"
@@ -114,8 +114,9 @@
                 "name": "1F",
                 "sections": [
                   {
-                    "name": "Wooden Beam Central Chest",
+                    "name": "Wooden Beam Northwest Chest",
                     "access_rules": [
+                      "chainball",
                       "Ordon_Pumpkin, $has_explosives"
                     ],
                     "item_count": 1

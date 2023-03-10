@@ -289,7 +289,7 @@
                   {
                     "name": "Deku Toad Chest",
                     "access_rules": [
-                      "Lakebed_Temple_Small_Key"
+                      "Lakebed_Temple_Small_Key:3"
                     ],
                     "item_count": 1
                   }
@@ -319,7 +319,8 @@
                   {
                     "name": "West Second Floor Southwest Underwater Chest",
                     "access_rules": [
-                      "Lakebed_Temple_Small_Key:3, cs"
+                      "Lakebed_Temple_Small_Key:3, cs, bow",
+                      "Lakebed_Temple_Small_Key:3, cs, boomerang"
                     ],
                     "item_count": 1
                   }
@@ -338,7 +339,8 @@
                   {
                     "name": "West Second Floor Southeast Chest",
                     "access_rules": [
-                      "Lakebed_Temple_Small_Key:3, cs"
+                      "Lakebed_Temple_Small_Key:3, cs, bow",
+                      "Lakebed_Temple_Small_Key:3, cs, boomerang"
                     ],
                     "item_count": 1
                   }
@@ -357,7 +359,8 @@
                   {
                     "name": "West Second Floor Central Small Chest",
                     "access_rules": [
-                      "Lakebed_Temple_Small_Key:3, cs"
+                      "Lakebed_Temple_Small_Key:3, cs, bow",
+                      "Lakebed_Temple_Small_Key:3, cs, boomerang"
                     ],
                     "item_count": 1
                   }
@@ -376,7 +379,8 @@
                   {
                     "name": "West Second Floor Northeast Chest",
                     "access_rules": [
-                      "Lakebed_Temple_Small_Key:3, cs"
+                      "Lakebed_Temple_Small_Key:3, cs, bow",
+                      "Lakebed_Temple_Small_Key:3, cs, boomerang"
                     ],
                     "item_count": 1
                   }
@@ -473,7 +477,8 @@
                   {
                     "name": "East Second Floor Southwest Chest",
                     "access_rules": [
-                      ""
+                      "bow",
+                      "boomerang"
                     ],
                     "item_count": 1
                   }
@@ -492,7 +497,8 @@
                   {
                     "name": "East Second Floor Southeast Chest",
                     "access_rules": [
-                      ""
+                      "bow",
+                      "boomerang"
                     ],
                     "item_count": 1
                   }
@@ -583,7 +589,7 @@
                   {
                     "name": "East Water Supply Clawshot Chest",
                     "access_rules": [
-                      ""
+                      "cs"
                     ],
                     "item_count": 1
                   }
