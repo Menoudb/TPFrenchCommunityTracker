@@ -159,7 +159,7 @@
                   {
                     "name": "Armos Antechamber North Chest",
                     "access_rules": [
-                      "Temple_of_Time_Small_Key:3"
+                      "Temple_of_Time_Small_Key:1"
                     ],
                     "item_count": 1
                   }
@@ -178,7 +178,7 @@
                   {
                     "name": "Armos Antechamber East Chest",
                     "access_rules": [
-                      "Temple_of_Time_Small_Key:3"
+                      "Temple_of_Time_Small_Key:1"
                     ],
                     "item_count": 1
                   }
@@ -197,7 +197,7 @@
                   {
                     "name": "Armos Antechamber Statue Chest",
                     "access_rules": [
-                      "Temple_of_Time_Small_Key:3, brokedominion"
+                      "Temple_of_Time_Small_Key:1, brokedominion"
                     ],
                     "item_count": 1
                   }

@@ -1,7 +1,7 @@
 ﻿{
   "name": "TPR - French Community Settings",
   "game_name": "Twilight Princess",
-  "package_version": "1.1",
+  "package_version": "1.2",
   "package_uid": "tptracker_menou",
   "author": "Menou & Lunar Soap",
   "variants": {    
@@ -9,10 +9,10 @@
       "display_name": "Map Tracker"
     },
     "var_maptrackerlight": {
-      "display_name": "Map Tracker light"
+      "display_name": "Map Tracker Light"
     },    
     "var_itemtracker": {
-      "display_name": "Item Tracker only"
+      "display_name": "Item Tracker Only"
     }
   }
 }

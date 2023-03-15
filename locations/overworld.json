@@ -930,9 +930,9 @@
           {
             "name": "Snowboard Racing",
             "access_rules": [
-              "shadcrystal,lantern,chainball,scent4"
+              "ruins"
             ],
-            "item_count": 0
+            "item_count": 1
           }
         ],
         "map_locations": [
