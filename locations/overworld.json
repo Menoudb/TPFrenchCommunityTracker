@@ -2047,7 +2047,7 @@
       {
         "name": "Bomb Rock Spire Heart Piece",
         "access_rules": [
-          "$shoot_pew, boomerang"
+          "$has_explosives, boomerang"
         ],
         "item_count": 1
       },
