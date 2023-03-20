@@ -270,7 +270,7 @@
     "type": "consumable",
     "img": "images/smallkey.png",
     "codes": "Goron_Mines_Small_Key",
-    "max_quantity": 2
+    "max_quantity": 3
   },
   {
     "name": "Lakebed Big Key",
