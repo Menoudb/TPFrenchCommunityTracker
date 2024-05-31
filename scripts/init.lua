@@ -22,6 +22,7 @@ if has_map then
 	Tracker:AddLocations("locations/shops.json")
     Tracker:AddLocations("locations/dung_reg.json")
     Tracker:AddLocations("locations/dung_mq.json")
+    Tracker:AddLocations("locations/hints.json")
     Tracker:AddLayouts("layouts/options.json")
     Tracker:AddLayouts("layouts/dungeon_grids_keysanity.json")
 end

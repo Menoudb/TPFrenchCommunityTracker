@@ -1,3 +1,7 @@
+function isHint()
+   return 1,AccessibilityLevel.Inspect
+ end
+
 function has(item, amount)
   local count = Tracker:ProviderCountForCode(item)
   amount = tonumber(amount)

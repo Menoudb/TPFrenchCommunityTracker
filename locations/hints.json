@@ -1,0 +1,699 @@
+[
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Ordon Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 666,
+                "y": 1062
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Sacred Grove Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 520,
+                "y": 870
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Faron Field Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 658,
+                "y": 751
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Faron Woods Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 668,
+                "y": 900
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Kakariko Gorge Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 780,
+                "y": 605
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Kakariko Village Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 948,
+                "y": 652
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Kakariko Graveyard Sign (behind the tombstone)",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 1030,
+                "y": 676
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Eldin Field Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 775,
+                "y": 539
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "North Eldin Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 930,
+                "y": 285
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Death Mountain Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 1034,
+                "y": 491
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Lanayru Field Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 656,
+                "y": 286
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Beside Castle Town Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 577,
+                "y": 482
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "South of Castle Town Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 645,
+                "y": 570
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Castle Town fountain Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            },
+            {
+                "name": "Agitha's Castle Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            },
+            {
+                "name": "Jovani House Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 640,
+                "y": 518
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Great Bridge of Hylia Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 492,
+                "y": 539
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Lake Hylia Sign (Cucco Mini Game)",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 438,
+                "y": 570
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Lake Lantern Cave Sign (Inside Cave)",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 458,
+                "y": 705
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Lanayru Spring Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 505,
+                "y": 654
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Zora's Domain Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 644,
+                "y": 155
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Upper Zora's River Sign (near the fishing house)",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 760,
+                "y": 84
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Gerudo Desert Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 250,
+                "y": 700
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Bulblin Camp Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 160,
+                "y": 540
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Snowpeak Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Poes",
+                "x": 567,
+                "y": 127
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Forest Temple Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "forest",
+                "x": 267,
+                "y": 387
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Goron Mines Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Goron mines",
+                "x": 1053,
+                "y": 56
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Lakebed Temple Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "lakebed",
+                "x": 1434,
+                "y": 202
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Arbiter's Grounds Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Arbiter's ground",
+                "x": 1474,
+                "y": 208
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Snowpeak Ruins Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Snowpeak ruins",
+                "x": 264,
+                "y": 308
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Temple of Time Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Temple of time",
+                "x": 303,
+                "y": 450
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Temple of Time Beyond Point Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Temple of time",
+                "x": 243,
+                "y": 881
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "City in the Sky Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "City in the sky",
+                "x": 2062,
+                "y": 228
+            }
+        ]
+    } 
+
+]

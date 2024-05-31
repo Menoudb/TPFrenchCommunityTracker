@@ -45,7 +45,7 @@
   #### Version 1.2 ####
   #####################
 
-  	- Add Snowpeak race
+  	- Added Snowpeak race
 	- Temple of Time logic fixed
 
   #### Version 1.3 ####
@@ -62,4 +62,10 @@
   #####################
  
     - Fix Goron mines logic
+	
+  #### Version 1.33 ####
+  #####################
+ 
+    - Renamed "Poes" tab to "Poes & Hints"
+	- Add Hint locations in "Poes & Hints" tab
 -------------------------------------------------------------------
