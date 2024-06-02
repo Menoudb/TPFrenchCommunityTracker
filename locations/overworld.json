@@ -215,30 +215,23 @@
             "name": "Sacred Grove & Lost Woods",
             "children": [
               {
-                "name": "Sacred Grove & Lost Woods - Master Sword",
+                "name": "Sacred Grove & Lost Woods",
                 "short_name": "Master Sword",
                 "sections": [
                   {
                     "name": "Master Sword",
-                    "access_rules": [
-                      "shad3"
-                    ],
-                    "item_count": 0
+                    "item_count": 1
                   },
                   {
-                    "name": "Sacred Grove & Lost Woods - Shadow Crystal",
-                    "access_rules": [
-                      "shad3",
-                      "shadowcrystal"
-                    ],
-                    "item_count": 0
+                    "name": "Shadow Crystal",
+                    "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "Main",
-                    "x": 525.4,
-                    "y": 821
+                    "x": 525,
+                    "y": 810
                   }
                 ]
               },
@@ -744,7 +737,7 @@
         ]
       },
       {
-        "name": "Northeast Hyrule Field",
+        "name": "North Eldin",
         "sections": [
           {
             "name": "Stalfos Grotto Small Chests",
@@ -770,7 +763,7 @@
         ]
       },
       {
-        "name": "Northeast Hyrule Field",
+        "name": "North Eldin",
         "chest_unopened_img": "images/chest_closed.png",
         "chest_opened_img": "images/chest_open.png",
         "access_rules": [
@@ -851,14 +844,14 @@
         ]
       },
       {
-        "name": "Snowpeak Province",
+        "name": "Snowpeak",
         "children": [
           {
             "name": "Snowpeak Mountains",
             "color": "#09a09d",
             "children": [
               {
-                "name": "Snowpeak Province",
+                "name": "Snowpeak",
                 "color": "#18a50e",
                 "sections": [
                   {
@@ -882,7 +875,7 @@
         ]
       },
       {
-        "name": "Snowpeak Province",
+        "name": "Snowpeak",
         "sections": [
           {
             "name": "Freezard Grotto Chest",
@@ -901,7 +894,7 @@
         ]
       },
       {
-        "name": "Snowpeak Province",
+        "name": "Snowpeak",
         "sections": [
           {
             "name": "Cave Ice Lantern Chest",
@@ -920,13 +913,13 @@
         ]
       },
       {
-        "name": "Snowpeak Province",
+        "name": "Snowpeak",
         "sections": [
           {
             "name": "Snowboard Racing",
             "access_rules": [
-              "ruins"
-            ],
+              "ruins" 
+             ],
             "item_count": 1
           }
         ],
@@ -1409,11 +1402,11 @@
             ]
           },
           {
-            "name": "Outside West Castle Town",
+            "name": "Beside Castle Town",
             "color": "#09a09d",
             "children": [
               {
-                "name": "Outside West Castle Town",
+                "name": "Beside Castle Town",
                 "color": "#18a50e",
                 "sections": [
                   {
@@ -1448,7 +1441,7 @@
                 ]
               },
               {
-                "name": "Outside West Castle Town",
+                "name": "Beside Castle Town",
                 "sections": [
                   {
                     "name": "Male Butterfly",
@@ -1609,7 +1602,7 @@
         ]
       },
       {
-        "name": "Outside West Castle Town",
+        "name": "Beside Castle Town",
         "sections": [
           {
             "name": "Skybook Letter",
@@ -1637,7 +1630,7 @@
         ]
       },
       {
-        "name": "Outside South Castle Town",
+        "name": "South of Castle Town",
         "sections": [
           {
             "name": "Fountain Chest",
@@ -1682,7 +1675,7 @@
         ]
       },
       {
-        "name": "Outside South Castle Town",
+        "name": "South of Castle Town",
         "sections": [
           {
             "name": "Double Clawshot Chasm Chest",
@@ -1702,7 +1695,7 @@
         ]
       },
       {
-        "name": "Outside South Castle Town",
+        "name": "South of Castle Town",
         "sections": [
           {
             "name": "Tektite Grotto Chest",
@@ -2001,6 +1994,12 @@
     "sections": [
       {
         "name": "Hylian Shield",
+        "access_rules": [
+          ""
+        ],
+        "item_count": 1
+      },      {
+        "name": "Red Potion (Buy right item first)",
         "access_rules": [
           ""
         ],

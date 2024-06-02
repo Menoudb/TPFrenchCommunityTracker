@@ -449,7 +449,7 @@
             {
                 "map": "Poes",
                 "x": 760,
-                "y": 84
+                "y": 122
             }
         ]
     },
@@ -694,6 +694,28 @@
                 "y": 228
             }
         ]
-    } 
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Hyrule Castle",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Hyrule castle",
+                "x": 297,
+                "y": 484
+            }
+        ]
+    }  
 
 ]
