@@ -73,4 +73,17 @@
   #####################
  
     - Fix AG map
+
+  #### Version 1.36 ####
+  #####################
+ 
+    - Fix Skybooks progressive
+    - Add new locations (Master Sword, Shadow Crystal, Red Potion)
+    - Move Temple of Time Location
+    - Rename Outside West Castle town to Beside Castle Town
+    - Rename Outside South Castle Town to South of Castle Town
+    - Rename Northeast Hyrule Field to North Eldin
+    - Fix 3rd Shard
+    - Add Hint location for Hyrule Castle
+
 -------------------------------------------------------------------

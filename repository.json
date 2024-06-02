@@ -2,13 +2,13 @@
   "name": "TPR - Menou Trackers",
   "packages": [
     {
-      "name": "TPR - French Community Settings",
+      "name": "TPR - Drehen Settings",
       "author": "Menou & Lunar Soap",
       "game_name": "Twilight Princess",
       "flags": [
         "map"
       ],
-      "version": "1.35",
+      "version": "1.36",
       "uid": "tptracker_menou",
       "link": "https://github.com/Menoudb/TPFrenchCommunityTracker/blob/main/tptracker_menou.zip?raw=true",
       "documentation_url": "https://github.com/Menoudb/TPFrenchCommunityTracker/blob/main/README.md",
