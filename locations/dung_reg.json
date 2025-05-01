@@ -4,6 +4,9 @@
     "parent": "Ordon Provence",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
+    "access_rules": [
+      "$canAccessFaron"
+    ],
     "sections": [
       {
         "name": "Wooden Sword Chest",
@@ -13,7 +16,7 @@
           ""
         ]
       },
-      {
+/*       {
         "name": "Slingshot",
         "short_name": "Slingshot",
         "access_rules": [
@@ -22,7 +25,7 @@
         "item_count": 1,
         "chest_unopened_img": "images/slingshot.png",
         "chest_opened_img": "images/slingshot-grey.png"
-      },
+      }, */
       {
         "name": "Uli Cradle Delivery",
         "short_name": "Uli Cradle Delivery",
@@ -87,7 +90,7 @@
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "access_rules": [
-      "shadcrystal"
+      "$canAccessForest"
     ],
     "sections": [
       {
@@ -858,7 +861,7 @@
     "name": "Snowpeak Ruins",
     "parent": "Snowpeak Mountain",
     "access_rules": [
-      "earring"
+      "$canAccessSnowpeak, earring"
     ],
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
@@ -1016,7 +1019,7 @@
   {
     "name": "Temple of Time",
     "access_rules": [
-      "shadcrystal, ms"
+      "$canAccessToT"
     ],
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
@@ -1496,7 +1499,7 @@
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "access_rules": [
-      "shad1, shad2, shad3"
+      "$canAccessHC"
     ],
     "sections": [
       {
@@ -1695,7 +1698,7 @@
       }
     ]
   },
-  {
+  /* {
     "name": "Lake Lantern Cave",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
@@ -1777,7 +1780,7 @@
         "y": 696
       }
     ]
-  },
+  }, */
     
 
   {
@@ -1785,6 +1788,9 @@
 	"parent": "Eldin Province",
   "chest_unopened_img": "images/chest_closed.png",
   "chest_opened_img": "images/chest_open.png",
+  "access_rules": [                 
+    "$canAccessEldin"
+  ],
 	"sections": 
 	[
 	  {
@@ -1832,6 +1838,9 @@
     "name": "Lanayru Spring",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
+    "access_rules": [                 
+      "$canAccessLanayru"
+    ],
     "sections": [
       {
         "name": "Underwater Left Chest",
@@ -1906,6 +1915,9 @@
     "name": "Castle Town",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
+    "access_rules": [                 
+      "$canAccessLanayru"
+    ],
     "sections": [
       {
         "name": "East Small Chest",
@@ -1914,13 +1926,13 @@
         ],
         "item_count": 0
       },
-      {
+/*       {
         "name": "Malo Mart Magic Armor",
         "access_rules": [
           ""
         ],
         "item_count": 1
-      },
+      }, */
       {
         "name": "Charlo Donation Blessing",
         "access_rules": [
@@ -2141,6 +2153,9 @@
     "name": "Kakariko Gorge",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
+    "access_rules": [                 
+      "$canAccessEldin"
+    ],
     "sections": [
       {
         "name": "Eldin Lantern Cave First Chest",
@@ -2177,6 +2192,9 @@
     "name": "Bulblin Camp",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
+    "access_rules": [                 
+      "$canAccessDesert"
+    ], 
     "sections": [
       
       {
@@ -2231,6 +2249,9 @@
     "name": "Bulblin Camp",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
+    "access_rules": [                 
+      "$canAccessDesert"
+    ], 
     "sections": [
       {
         "name": "North Small Chest Before Bulblin Camp",

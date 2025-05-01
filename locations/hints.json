@@ -365,7 +365,7 @@
             }
         ]
     },
-    {
+    /* {
         "name": "Hints",
         "parent": "Hints",
         "chest_unopened_img": "images/sign.png",
@@ -386,7 +386,7 @@
                 "y": 705
             }
         ]
-    },
+    }, */
     {
         "name": "Hints",
         "parent": "Hints",
@@ -692,6 +692,28 @@
                 "map": "City in the sky",
                 "x": 2062,
                 "y": 228
+            }
+        ]
+    },
+    {
+        "name": "Hints",
+        "parent": "Hints",
+        "chest_unopened_img": "images/sign.png",
+        "chest_opened_img": "images/sign-grey.png",
+        "sections": [
+            {
+                "name": "Palace of Twilight Sign",
+                "item_count": 1,
+                "access_rules": [
+                    "$isHint"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Palace of Twilight",
+                "x": 358,
+                "y": 542
             }
         ]
     },

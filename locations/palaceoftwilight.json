@@ -1,0 +1,387 @@
+[
+  {
+    "name": "Palace of Twilight",
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "access_rules": [
+      "$canAccessPoT"
+    ],
+    "children": [
+      {
+        "name": "1F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "1F",
+            "children": [
+                        {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Chest Behind Wall of Darkness",
+                    "access_rules": [
+                     "sword4, cs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 211,
+                    "y": 433
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "First Room Central Chest",
+                    "access_rules": [
+                      
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 259,
+                    "y": 403
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Second Room Lower South Chest",
+                    "access_rules": [
+                    "cs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 275,
+                    "y": 348
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Second Room Southeast Chest",
+                    "access_rules": [
+                    "dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 287,
+                    "y": 359
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Second Room Central Chest",
+                    "access_rules": [
+                    "cs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 259,
+                    "y": 293
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "First Room East Alcove Chest",
+                    "access_rules": [
+                    "sword4",
+                    "cs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 443,
+                    "y": 436
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "First Room North Small Chest",
+                    "access_rules": [
+                    "sword4",
+                    "cs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 397,
+                    "y": 403                  
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "First Room Zant Head Chest",
+                    "access_rules": [
+                    "sword4",
+                    "cs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 418,
+                    "y": 403                  
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "First Room West Alcove Chest",
+                    "access_rules": [
+                    "sword4",
+                    "cs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 376,
+                    "y": 436
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Second Room Southeast Chest",
+                    "access_rules": [
+                    "dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 434,
+                    "y": 329                  
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Second Room Northeast Chest",
+                    "access_rules": [
+                    "dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 440,
+                    "y": 316                  
+                  }
+                ]
+              },              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Second Room Northwest Chest",
+                    "access_rules": [
+                    "cs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 386,
+                    "y": 309                  
+                  }
+                ]
+              },              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Second Room Southwest Chest",
+                    "access_rules": [
+                    "dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 387,
+                    "y": 327                  
+                  }
+                ]
+              },              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Collect Both Sols",
+                    "access_rules": [
+                    "cs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 335,
+                    "y": 538                  
+                  }
+                ]
+              },              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Central First Room Chest",
+                    "access_rules": [
+                    "sword4"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 1006,
+                    "y": 339                  
+                  }
+                ]
+              },
+              {
+                "name": "3F",
+                "sections": [
+                  {
+                    "name": "Big Key Chest",
+                    "access_rules": [
+                    "sword4, dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 296,
+                    "y": 931                  
+                  }
+                ]
+              },
+              {
+                "name": "3F",
+                "sections": [
+                  {
+                    "name": "Central Outdoor Chest",
+                    "access_rules": [
+                    "sword4"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 281,
+                    "y": 895                  
+                  }
+                ]
+              },
+              {
+                "name": "3F",
+                "sections": [
+                  {
+                    "name": "Central Tower Chest",
+                    "access_rules": [
+                    "sword4, cs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 320,
+                    "y": 912                  
+                  }
+                ]
+              },
+              {
+                "name": "4F",
+                "sections": [
+                  {
+                    "name": "Zant Heart Container",
+                    "access_rules": [
+                    "Palace_of_Twilight_Big_Key, sword4, cs"
+                    ],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/HC.png",
+                    "chest_opened_img": "images/HC-grey.png"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Palace of Twilight",
+                    "x": 983,
+                    "y": 697                  
+                  }
+                ]
+              }              
+            ]
+          }
+        ]
+      }             
+    ]        
+  }
+]
+

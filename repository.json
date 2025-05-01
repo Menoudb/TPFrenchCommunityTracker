@@ -8,7 +8,7 @@
       "flags": [
         "map"
       ],
-      "version": "1.36",
+      "version": "2.00",
       "uid": "tptracker_menou",
       "link": "https://github.com/Menoudb/TPFrenchCommunityTracker/blob/main/tptracker_menou.zip?raw=true",
       "documentation_url": "https://github.com/Menoudb/TPFrenchCommunityTracker/blob/main/README.md",
@@ -18,22 +18,6 @@
           "flags": [
             "map",
             "pins",
-            "chathud"
-          ]
-        },
-        {
-          "name": "Map Tracker light",
-          "flags": 
-          [
-            "map",
-            "pins",
-            "chathud"
-          ]
-        },
-        {
-          "name": "Item Tracker only",
-          "flags": 
-          [
             "chathud"
           ]
         }

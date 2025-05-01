@@ -66,6 +66,12 @@
     "img": "images/skymap.png"
   },
   {
+    "name": "Palace of Twilight",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/palacemap.png"
+  },
+  {
     "name": "Hyrule castle",
     "location_size": 15,
     "location_border_thickness": 3,

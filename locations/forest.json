@@ -3,6 +3,9 @@
     "name": "forest",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
+    "access_rules": [
+      "$canAccessForest"
+    ],
     "children": [
       {
         "name": "1F",

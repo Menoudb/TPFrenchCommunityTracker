@@ -7,9 +7,13 @@
       {
         "name": "Ordon Province",
         "color": "#18a50e",
+        "access_rules": [
+          "$canAccessFaron"
+        ],
         "children": [
           {
             "name": "Ordon Province",
+
             "children": [
               {
                 "name": "Ordon Province - Ordon ranch",
@@ -35,7 +39,7 @@
                   {
                     "name": "Ordon Ranch Grotto Lantern Chest",
                     "access_rules": [
-                      "shadcrystal,lantern"
+                      "lantern"
                     ],
                     "item_count": 1
                   }
@@ -55,6 +59,9 @@
       {
         "name": "Faron Province",
         "color": "#18a50e",
+        "access_rules": [
+          "$canAccessFaron"
+        ],
         "children": [
           {
             "name": "South Faron Woods",
@@ -65,11 +72,15 @@
                 "sections": [
                   {
                     "name": "Lantern",
-                    "item_count": 0
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Coro's key",
+                    "item_count": 1
                   },
                   {
                     "name": "Coro's Bottle",
-                    "item_count": 1
+                    "item_count": 0
                   }
                 ],
                 "map_locations": [
@@ -103,6 +114,9 @@
           },
           {
             "name": "Faron Woods - North Faron Woods",
+            "access_rules": [
+              "$canAccessFaron"
+            ],
             "children": [
               {
                 "name": "Faron Woods",
@@ -196,7 +210,7 @@
                   {
                     "name": "Owl Statue Chest",
                     "access_rules": [
-                      "$can_smash,dominion,shadcrystal"
+                      "$can_smash,dominion"
                     ],
                     "item_count": 1
                   }
@@ -213,6 +227,9 @@
           },
           {
             "name": "Sacred Grove & Lost Woods",
+            "access_rules": [
+              "$canAccessFaron"
+            ],
             "children": [
               {
                 "name": "Sacred Grove & Lost Woods",
@@ -239,18 +256,18 @@
                 "name": "Sacred Grove & Lost Woods",
                 "sections": [
                   {
-                    "name": "Sacred Grove Temple of Time Owl Statue Poe",
+                    "name": "Sacred Grove Past Owl Statue Chest",
                     "access_rules": [
-                      "shadcrystal,brokedominion"
+                      "brokedominion, sword3"
                     ],
                     "item_count": 1
                   },
-                  {
+                  /* {
                     "name": "Female Snail",
                     "access_rules": [
-                      "shadcrystal, cs",
-                      "shadcrystal, dcs",
-                      "shadcrystal, rang"
+                      " cs",
+                      " dcs",
+                      " rang"
                     ],
                     "item_count": 1,
                     "chest_unopened_img": "images/Golden_Bug.png",
@@ -259,14 +276,14 @@
                   {
                     "name": "Male Snail",
                     "access_rules": [
-                      "shadcrystal, cs",
-                      "shadcrystal, dcs",
-                      "shadcrystal, rang"
+                      " cs",
+                      " dcs",
+                      " rang"
                     ],
                     "item_count": 1,
                     "chest_unopened_img": "images/Golden_Bug.png",
                     "chest_opened_img": "images/Golden_Bug-grey.png"
-                  }
+                  } */
                 ],
                 "map_locations": [
                   {
@@ -282,7 +299,7 @@
                   {
                     "name": "Sacred Grove Baba Serpent Grotto Chest",
                     "access_rules": [
-                      "shadcrystal,$can_smash"
+                      "$can_smash"
                     ],
                     "item_count": 1
                   }
@@ -301,6 +318,9 @@
       },
       {
         "name": "Sacred Grove & Lost Woods",
+        "access_rules": [
+          "$canAccessFaron"
+        ],
         "sections": [
           {
             "name": "Sacred Grove & Lost Woods - Lost Woods Lantern Chest",
@@ -327,6 +347,9 @@
       },
       {
         "name": "Faron Field",
+        "access_rules": [                 
+          "$canAccessEldin"
+        ],
         "sections": [
           {
             "name": "Faron Field Bridge Chest",
@@ -346,6 +369,9 @@
       },
       {
         "name": "Faron Field",
+        "access_rules": [                 
+          "$canAccessEldin"
+        ],
         "sections": [
           {
             "name": "Faron Field Tree Heart Piece",
@@ -366,11 +392,14 @@
       },
       {
         "name": "Faron Field",
+        "access_rules": [                 
+          "$canAccessEldin"
+        ],
         "sections": [
           {
             "name": "Faron Field Corner Grotto",
             "access_rules": [
-              "shadcrystal"
+              ""
             ],
             "item_count": 3
           }
@@ -383,7 +412,7 @@
           }
         ]
       },
-      {
+      /* {
         "name": "Faron Field",
         "sections": [
           {
@@ -426,9 +455,12 @@
             "y": 734
           }
         ]
-      },
+      }, */
       {
         "name": "Death Mountain",
+        "access_rules": [                 
+          "$canAccessEldin"
+        ],
         "children": [
           {
             "name": "Death Mountain",
@@ -454,6 +486,9 @@
       },
       {
         "name": "Eldin Province",
+        "access_rules": [                 
+          "$canAccessEldin"
+        ],
         "children": [
           {
             "name": "Eldin Field",
@@ -483,7 +518,7 @@
           }
         ]
       },
-      {
+      /* {
         "name": "Eldin Field",
         "sections": [
           {
@@ -524,9 +559,12 @@
             "y": 432
           }
         ]
-      },
+      }, */
       {
         "name": "Kakariko Gorge",
+        "access_rules": [                 
+          "$canAccessEldin"
+        ],
         "sections": [
           {
             "name": "Kakariko Gorge Double Clawshot Chest",
@@ -554,6 +592,9 @@
       },
       {
         "name": "Kakariko Gorge",
+        "access_rules": [                 
+          "$canAccessEldin"
+        ],
         "sections": [
           {
             "name": "Kakariko Gorge Owl Statue Sky Character",
@@ -578,7 +619,7 @@
           }
         ]
       },
-      {
+      /* {
         "name": "Kakariko Gorge",
         "sections": [
           {
@@ -619,10 +660,13 @@
             "y": 682
           }
         ]
-      },
+      }, */
       {
         "name": "Eldin Field",
         "parent": "Eldin Province",
+        "access_rules": [                 
+          "$canAccessEldin"
+        ],
         "chest_unopened_img": "images/chest_closed.png",
         "chest_opened_img": "images/chest_opened_img.png",
         "sections": [
@@ -630,14 +674,14 @@
             "name": "Bomskit Grotto Left Chest",
             "item_count": 1,
             "access_rules": [
-              "shadcrystal"
+              ""
             ]
           },
           {
             "name": "Bomskit Grotto Lantern Chest",
             "item_count": 1,
             "access_rules": [
-              "shadcrystal,lantern"
+              "lantern"
             ]
           }
         ],
@@ -651,11 +695,14 @@
       },
       {
         "name": "Eldin Field",
+        "access_rules": [                 
+          "$canAccessEldin"
+        ],
         "sections": [
           {
             "name": "Water Bomb Fish Grotto Chest",
             "access_rules": [
-              "shadcrystal"
+              ""
             ],
             "item_count": 1
           }
@@ -670,6 +717,9 @@
       },
       {
         "name": "Eldin Field",
+        "access_rules": [                 
+          "$canAccessEldin"
+        ],
         "sections": [
           {
             "name": "Skybook Letter",
@@ -687,13 +737,13 @@
           }
         ]
       },
-      {
+      /* {
         "name": "Eldin Field",
         "sections": [
           {
             "name": "Owl Statue Chest",
             "access_rules": [
-              "dominion,shadcrystal"
+              "dominion"
             ],
             "item_count": 1
           },
@@ -716,9 +766,12 @@
             "y": 410
           }
         ]
-      },
+      }, */
       {
         "name": "Eldin Field",
+        "access_rules": [                 
+          "$canAccessEldin"
+        ],
         "sections": [
           {
             "name": "Goron Springwater Rush",
@@ -738,18 +791,21 @@
       },
       {
         "name": "North Eldin",
+        "access_rules": [                 
+          "$canAccessEldin"
+        ],
         "sections": [
           {
             "name": "Stalfos Grotto Small Chests",
             "access_rules": [
-              "spinner,shadcrystal"
+              "spinner"
             ],
             "item_count": 2
           },
           {
             "name": "Stalfos Grotto Stalfos Chest",
             "access_rules": [
-              "spinner,shadcrystal,$can_smash"
+              "spinner,$can_smash"
             ],
             "item_count": 1
           }
@@ -764,11 +820,11 @@
       },
       {
         "name": "North Eldin",
+        "access_rules": [                 
+          "$canAccessEldin,cs"
+        ],
         "chest_unopened_img": "images/chest_closed.png",
         "chest_opened_img": "images/chest_open.png",
-        "access_rules": [
-          "cs"
-        ],
         "sections": [
           {
             "name": "Stockcave Upper Chest",
@@ -791,7 +847,7 @@
             ],
             "item_count": 1
           },
-          {
+          /* {
             "name": "Female Phasmid",
             "access_rules": [
               "cs",
@@ -800,7 +856,7 @@
             "item_count": 1,
             "chest_unopened_img": "images/Golden_Bug.png",
             "chest_opened_img": "images/Golden_Bug-grey.png"
-          }
+          } */
         ],
         "map_locations": [
           {
@@ -812,6 +868,9 @@
       },
       {
         "name": "Hidden Village",
+        "access_rules": [                 
+          "$canAccessEldin"
+        ],
         "sections": [
           {
             "name": "Hidden Village Skybook",
@@ -845,6 +904,9 @@
       },
       {
         "name": "Snowpeak",
+        "access_rules": [                 
+          "$canAccessLanayru"
+        ],
         "children": [
           {
             "name": "Snowpeak Mountains",
@@ -876,11 +938,14 @@
       },
       {
         "name": "Snowpeak",
+        "access_rules": [                 
+          "$canAccessLanayru"
+        ],
         "sections": [
           {
             "name": "Freezard Grotto Chest",
             "access_rules": [
-              "shadcrystal,chainball,earring"
+              "chainball,earring"
             ],
             "item_count": 1
           }
@@ -895,11 +960,14 @@
       },
       {
         "name": "Snowpeak",
+        "access_rules": [                 
+          "$canAccessLanayru"
+        ],
         "sections": [
           {
             "name": "Cave Ice Lantern Chest",
             "access_rules": [
-              "shadcrystal,lantern,chainball,earring"
+              "lantern,chainball,earring"
             ],
             "item_count": 1
           }
@@ -912,7 +980,7 @@
           }
         ]
       },
-      {
+/*       {
         "name": "Snowpeak",
         "sections": [
           {
@@ -930,9 +998,12 @@
             "y": 140
           }
         ]
-      },
+      }, */
       {
         "name": "Lanayru Province",
+        "access_rules": [                 
+          "$canAccessLanayru"
+        ],
         "children": [
           {
             "name": "Zora's Domain",
@@ -945,8 +1016,8 @@
                   {
                     "name": "Chest Under Waterfall",
                     "access_rules": [
-                      "shadcrystal,$can_smash",
-                      "shadcrystal,gate"
+                      "$can_smash",
+                      "gate"
                     ],
                     "item_count": 1
                   }
@@ -966,21 +1037,21 @@
                   {
                     "name": "Chest By Mother and Child Isles",
                     "access_rules": [
-                      "shadcrystal,$can_smash",
-                      "shadcrystal,gate"
+                      "$can_smash",
+                      "gate"
                     ],
                     "item_count": 1
                   },
-                  {
+                  /* {
                     "name": "Male Dragonfly",
                     "access_rules": [
-                      "shadcrystal, gate",
-                      "shadcrystal, $can_smash"
+                      " gate",
+                      " $can_smash"
                     ],
                     "item_count": 1,
                     "chest_unopened_img": "images/Golden_Bug.png",
                     "chest_opened_img": "images/Golden_Bug-grey.png"
-                  }
+                  } */
                 ],
                 "map_locations": [
                   {
@@ -998,7 +1069,7 @@
               {
                 "name": "Underwater Chest - Light all 3 Torches",
                 "access_rules": [
-                  "lantern,irons,shadcrystal",
+                  "lantern,irons",
                   "lantern,irons,$can_smash",
                   "lantern,irons,gate"
                 ],
@@ -1007,7 +1078,7 @@
               {
                 "name": "Underwater Chest - Extinguish all 3 Torches",
                 "access_rules": [
-                  "rang,irons,shadcrystal",
+                  "rang,irons",
                   "rang,irons,$can_smash",
                   "rang,irons,gate"
                 ],
@@ -1075,8 +1146,8 @@
               {
                 "name": "Plumm Fruit Balloon Minigame",
                 "access_rules": [
-                  "shadcrystal,gate",
-                  "shadcrystal,$can_smash"
+                  "gate",
+                  "$can_smash"
                 ],
                 "item_count": 1
               }
@@ -1089,7 +1160,7 @@
               }
             ]
           },
-          {
+          /* {
             "name": "Upper Zora's River",
             "sections": [
               {
@@ -1109,15 +1180,15 @@
                 "y": 150
               }
             ]
-          },
+          }, */
           {
             "name": "Lanayru Field",
             "sections": [
               {
                 "name": "Skulltula Grotto Chest",
                 "access_rules": [
-                  "lantern,shadcrystal, gate",
-                  "lantern,shadcrystal, $can_smash"
+                  "lantern, gate",
+                  "lantern, $can_smash"
                 ],
                 "item_count": 1
               }
@@ -1149,7 +1220,7 @@
               }
             ]
           },
-          {
+          /* {
             "name": "Lanayru Field",
             "sections": [
               {
@@ -1200,7 +1271,7 @@
                 "y": 350
               }
             ]
-          },
+          }, */
           {
             "name": "Lanayru Field",
             "sections": [
@@ -1253,7 +1324,7 @@
                   {
                     "name": "Water Toadpoli Grotto Chest",
                     "access_rules": [
-                      "shadcrystal,gate"
+                      "gate"
                     ],
                     "item_count": 1
                   }
@@ -1412,12 +1483,12 @@
                   {
                     "name": "Helmasaur Grotto Chest",
                     "access_rules": [
-                      "shadcrystal,cs,gate",
-                      "shadcrystal,cs,$can_smash"
+                      "cs,gate",
+                      "cs,$can_smash"
                     ],
                     "item_count": 1
                   },
-                  {
+                  /* {
                     "name": "Female Butterfly",
                     "access_rules": [
                       "rang, gate",
@@ -1430,7 +1501,7 @@
                     "item_count": 1,
                     "chest_unopened_img": "images/Golden_Bug.png",
                     "chest_opened_img": "images/Golden_Bug-grey.png"
-                  }
+                  } */
                 ],
                 "map_locations": [
                   {
@@ -1440,7 +1511,7 @@
                   }
                 ]
               },
-              {
+              /* {
                 "name": "Beside Castle Town",
                 "sections": [
                   {
@@ -1461,13 +1532,16 @@
                     "y": 528
                   }
                 ]
-              }
+              } */
             ]
           }
         ]
       },
       {
         "name": "Lanayru Field",
+        "access_rules": [                 
+          "$canAccessLanayru"
+        ],
         "sections": [
           {
             "name": "Spinner Track Chest",
@@ -1487,6 +1561,9 @@
       },
       {
         "name": "Great Bridge of Hylia",
+        "access_rules": [                 
+          "$canAccessLanayru"
+        ],
         "sections": [
           {
             "name": "Bridge Vines Chest",
@@ -1496,7 +1573,7 @@
             ],
             "item_count": 1
           },
-          {
+          /* {
             "name": "Male Mantis",
             "access_rules": [
               "rang, gate",
@@ -1509,7 +1586,7 @@
             "item_count": 1,
             "chest_unopened_img": "images/Golden_Bug.png",
             "chest_opened_img": "images/Golden_Bug-grey.png"
-          }
+          } */
         ],
         "map_locations": [
           {
@@ -1519,7 +1596,7 @@
           }
         ]
       },
-      {
+      /* {
         "name": "Great Bridge of Hylia",
         "sections": [
           {
@@ -1544,15 +1621,18 @@
             "y": 677
           }
         ]
-      },
+      }, */
       {
         "name": "Great Bridge of Hylia",
+        "access_rules": [                 
+          "$canAccessLanayru"
+        ],
         "sections": [
           {
             "name": "Bubble Grotto Chest",
             "access_rules": [
-              "$shoot_pew,cs,shadcrystal, $can_smash",
-              "$shoot_pew,cs,shadcrystal, gate"
+              "$shoot_pew,cs, $can_smash",
+              "$shoot_pew,cs, gate"
             ],
             "item_count": 1
           },
@@ -1575,6 +1655,9 @@
       },
       {
         "name": "Great Bridge of Hylia",
+        "access_rules": [                 
+          "$canAccessLanayru"
+        ],
         "sections": [
           {
             "name": "Owl Statue Sky Character",
@@ -1603,6 +1686,9 @@
       },
       {
         "name": "Beside Castle Town",
+        "access_rules": [                 
+          "$canAccessLanayru"
+        ],
         "sections": [
           {
             "name": "Skybook Letter",
@@ -1631,6 +1717,9 @@
       },
       {
         "name": "South of Castle Town",
+        "access_rules": [                 
+          "$canAccessLanayru"
+        ],
         "sections": [
           {
             "name": "Fountain Chest",
@@ -1643,12 +1732,12 @@
           {
             "name": "Tightrope Chest",
             "access_rules": [
-              "cs,shadcrystal, $can_smash",
-              "cs,shadcrystal, gate"
+              "cs, $can_smash",
+              "cs, gate"
             ],
             "item_count": 1
           },
-          {
+          /* {
             "name": "Female Ladybug",
             "access_rules": [
               "gate",
@@ -1657,7 +1746,7 @@
             "item_count": 1,
             "chest_unopened_img": "images/Golden_Bug.png",
             "chest_opened_img": "images/Golden_Bug-grey.png"
-          },
+          }, */
           {
             "name": "Wooden Statue",
             "access_rules": [
@@ -1676,6 +1765,9 @@
       },
       {
         "name": "South of Castle Town",
+        "access_rules": [                 
+          "$canAccessLanayru"
+        ],
         "sections": [
           {
             "name": "Double Clawshot Chasm Chest",
@@ -1696,16 +1788,19 @@
       },
       {
         "name": "South of Castle Town",
+        "access_rules": [                 
+          "$canAccessLanayru"
+        ],
         "sections": [
           {
             "name": "Tektite Grotto Chest",
             "access_rules": [
-              "shadcrystal, gate",
-              "shadcrystal, $can_smash "
+              " gate",
+              " $can_smash "
             ],
             "item_count": 1
           },
-          {
+          /* {
             "name": "Male Ladybug",
             "access_rules": [
               "gate",
@@ -1714,7 +1809,7 @@
             "item_count": 1,
             "chest_unopened_img": "images/Golden_Bug.png",
             "chest_opened_img": "images/Golden_Bug-grey.png"
-          }
+          } */
         ],
         "map_locations": [
           {
@@ -1726,11 +1821,14 @@
       },
       {
         "name": "Gerudo Desert",
+        "access_rules": [                 
+          "$canAccessDesert"
+        ],        
         "sections": [
           {
             "name": "Skulltula Grotto Chest",
             "access_rules": [
-              "shadcrystal, auru"
+              ""
             ],
             "item_count": 1
           }
@@ -1745,11 +1843,14 @@
       },
       {
         "name": "Gerudo Desert",
+        "access_rules": [                 
+          "$canAccessDesert"
+        ], 
         "sections": [
           {
             "name": "East Canyon Chest",
             "access_rules": [
-              "shadcrystal, auru"
+              ""
             ],
             "item_count": 1
           }
@@ -1764,12 +1865,15 @@
       },
       {
         "name": "Gerudo Desert",
+        "access_rules": [                 
+          "$canAccessDesert"
+        ], 
         "sections": [
           {
             "name": "Peahat Ledge Chest",
             "access_rules": [
-              "shadcrystal,auru,cs",
-              "shadcrystal,auru,dcs"
+              "cs",
+              "dcs"
             ],
             "item_count": 1
           }
@@ -1784,11 +1888,14 @@
       },
       {
         "name": "Gerudo Desert",
+        "access_rules": [                 
+          "$canAccessDesert"
+        ], 
         "sections": [
           {
             "name": "Lone Small Chest",
             "access_rules": [
-              "shadcrystal, auru"
+              ""
             ],
             "item_count": 1
           }
@@ -1803,11 +1910,14 @@
       },
       {
         "name": "Gerudo Desert",
+        "access_rules": [                 
+          "$canAccessDesert"
+        ], 
         "sections": [
           {
             "name": "South Chest Behind Wooden Gates",
             "access_rules": [
-              "shadcrystal, auru"
+              ""
             ],
             "item_count": 1
           }
@@ -1822,18 +1932,21 @@
       },
       {
         "name": "Gerudo Desert",
+        "access_rules": [                 
+          "$canAccessDesert"
+        ], 
         "sections": [
           {
             "name": "Owl Statue Sky Character",
             "access_rules": [
-              "dominion,shadcrystal, auru"
+              "dominion"
             ],
             "item_count": 1
           },
           {
             "name": "Owl Statue Chest",
             "access_rules": [
-              "dominion,shadcrystal, auru"
+              "dominion"
             ],
             "item_count": 1
           }
@@ -1848,12 +1961,15 @@
       },
       {
         "name": "Gerudo Desert",
+        "access_rules": [                 
+          "$canAccessDesert"
+        ], 
         "sections": [
           {
             "name": "West Canyon Chest",
             "access_rules": [
-              "shadcrystal,cs, auru",
-              "shadcrystal,dcs, auru"
+              "cs",
+              "dcs"
             ],
             "item_count": 1
           }
@@ -1868,12 +1984,15 @@
       },
       {
         "name": "Gerudo Desert",
+        "access_rules": [                 
+          "$canAccessDesert"
+        ], 
         "sections": [
           {
             "name": "Rock Grotto Lantern Chest",
             "access_rules": [
-              "cs,shadcrystal,$can_smash,lantern, auru",
-              "dcs,shadcrystal,$can_smash,lantern, auru"
+              "cs,$can_smash,lantern",
+              "dcs,$can_smash,lantern"
             ],
             "item_count": 1
           }
@@ -1888,11 +2007,14 @@
       },
       {
         "name": "Gerudo Desert",
+        "access_rules": [                 
+          "$canAccessDesert"
+        ], 
         "sections": [
           {
             "name": "3 Freestanding Chest",
             "access_rules": [
-              "shadcrystal, auru"
+              ""
             ],
             "item_count": 3
           }
@@ -1907,11 +2029,14 @@
       },
       {
         "name": "Gerudo Desert",
+        "access_rules": [                 
+          "$canAccessDesert"
+        ], 
         "sections": [
           {
             "name": "Northeast Chest Behind Gates",
             "access_rules": [
-              "shadcrystal, auru"
+              ""
             ],
             "item_count": 1
           }
@@ -1926,11 +2051,14 @@
       },
       {
         "name": "Gerudo Desert",
+        "access_rules": [                 
+          "$canAccessDesert"
+        ], 
         "sections": [
           {
             "name": "Northwest Chest Behind Gates",
             "access_rules": [
-              "shadcrystal, auru"
+              ""
             ],
             "item_count": 1
           }
@@ -1943,13 +2071,13 @@
           }
         ]
       },
-      {
+      /* {
         "name": "Gerudo Desert",
         "sections": [
           {
             "name": "Male Dayfly",
             "access_rules": [
-              "shadcrystal, auru"
+              " auru"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/Golden_Bug.png",
@@ -1970,7 +2098,7 @@
           {
             "name": "Female Dayfly",
             "access_rules": [
-              "shadcrystal, auru"
+              " auru"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/Golden_Bug.png",
@@ -1984,32 +2112,36 @@
             "y": 740
           }
         ]
-      }
+      } */
     ]
   },
   {
     "name": "Kakariko Village",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
+    "access_rules": [                 
+      "$canAccessEldin"
+    ],
     "sections": [
-      {
+/*       {
         "name": "Hylian Shield",
         "access_rules": [
           ""
         ],
         "item_count": 1
-      },      {
+      },     */  
+/*       {
         "name": "Red Potion (Buy right item first)",
         "access_rules": [
           ""
         ],
         "item_count": 1
-      },
+      }, */
       {
         "name": "Inn Chest",
         "item_count": 1
       },
-      {
+      /* {
         "name": "Female Ant",
         "access_rules": [
           ""
@@ -2017,14 +2149,14 @@
         "item_count": 1,
         "chest_unopened_img": "images/Golden_Bug.png",
         "chest_opened_img": "images/Golden_Bug-grey.png"
-      },
-      {
+      }, */
+/*       {
         "name": "Barnes Bomb Bag",
         "access_rules": [
           ""
         ],
         "item_count": 1
-      },
+      }, */
       {
         "name": "Watchtower Chest",
         "item_count": 1
@@ -2064,20 +2196,20 @@
         ],
         "item_count": 0
       },
-      {
+/*       {
         "name": "Archery Heart Piece",
         "access_rules": [
           "mines, bow"
         ],
         "item_count": 1
-      },
-      {
+      }, */
+/*       {
         "name": "Hawkeye",
         "access_rules": [
           "mines"
         ],
         "item_count": 1
-      }
+      } */
     ],
     "map_locations": [
       {

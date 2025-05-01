@@ -510,11 +510,9 @@
   //Skybook Letters
   {
     "name": "Letters",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/skybook.png",
-    "codes": "letters",
-    "min_quantity": 3,
-    "max_quantity": 6
+    "codes": "letters"
   },
 
     //Skybook Letters Progressive
@@ -633,6 +631,14 @@
     "codes": "shield3,hylianshield"
   },
 
+  // Coro's Key
+  {
+    "name": "Coro's Key",
+    "type": "toggle",
+    "img": "images/coro-key.png",
+    "codes": "corokey, coroskey"
+  },
+
   // Gate Key
   {
     "name": "Gate Key",
@@ -640,12 +646,38 @@
     "img": "images/key-small.png",
     "codes": "gate,gatekey"
   },
+
   // Poe Souls
   {
     "name": "Poe Souls",
     "type": "consumable",
     "img": "images/soul.png",
     "codes": "soul",
+    "min_quantity": 10,
     "max_quantity": 60
+  },
+
+  // Spawn Faron
+  {
+    "name": "Spawn Faron",
+    "type": "toggle",
+    "img": "images/spawn_faron.png",
+    "codes": "spfaron"
+  },
+
+  // Spawn Eldin
+   {
+    "name": "Spawn Eldin",
+    "type": "toggle",
+    "img": "images/spawn_eldin.png",
+    "codes": "spedlin"
+  },
+  
+  // Spawn Lanayru
+  {
+    "name": "Spawn Lanayru",
+    "type": "toggle",
+    "img": "images/spawn_lanayru.png",
+    "codes": "splanayru"
   }
 ]

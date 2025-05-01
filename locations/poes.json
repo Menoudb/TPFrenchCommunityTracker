@@ -10,28 +10,28 @@
 	      "name": "1st Poe",
 		    "item_count": 1,
 		    "access_rules": [
-		    "shadcrystal, auru"
+		    " auru"
 		    ]
 	    },
 	    {
 	      "name": "2nd Poe",
 		    "item_count": 1,
 		    "access_rules": [
-		    "shadcrystal,cs, auru"
+		    "cs, auru"
 		    ]
 	    },
 	    {
 	      "name": "3rd Poe",
 		    "item_count": 1,
 		    "access_rules": [
-		    "shadcrystal, auru"
+		    " auru"
 		    ]
 	    },
 	    {
 	      "name": "4th Poe",
 		    "item_count": 1,
 		    "access_rules": [
-		    "shadcrystal,$can_smash,auru"
+		    "$can_smash,auru"
 		    ]
 	    }
 	  ],
@@ -49,8 +49,8 @@
           {
             "name": "Jovani",
             "access_rules": [
-              "shadcrystal, gate",
-              "shadcrystal, $can_smash"
+              " gate",
+              " $can_smash"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -76,21 +76,21 @@
 	    "name": "Cave of Ordeals 17F Poe",
 		"item_count": 1,
 		"access_rules": [
-		  "shadcrystal,cs,spinner,bow, auru"
+		  "cs,spinner,bow, auru"
 		]
 	  },
 	  {
 	    "name": "Cave of Ordeals 33F Poe",
 		"item_count": 1,
 		"access_rules": [
-		  "shadcrystal,cs,spinner,chainball,dominion,bow, auru"
+		  "cs,spinner,chainball,dominion,bow, auru"
 		]
 	  },
 	  {
 	    "name": "Cave of Ordeals 44F Poe",
 		"item_count": 1,
 		"access_rules": [
-		  "shadcrystal,cs,spinner,chainball,dominion,dcs,bow, auru"
+		  "cs,spinner,chainball,dominion,dcs,bow, auru"
 		]
 	  }
 	],
@@ -113,14 +113,14 @@
 	    "name": "Poe on a little Island",
 		"item_count": 1,
 		"access_rules": [
-		  "dcs,shadcrystal"
+		  "dcs"
 		]
 	  },
 	  {
 	    "name": "Poe Outside of the Fan Room",
 		"item_count": 1,
 		"access_rules": [
-		  "dcs,shadcrystal"
+		  "dcs"
 		]
 	  }
 	],
@@ -138,8 +138,8 @@
           {
             "name": "Death Mountain Night",
             "access_rules": [
-              "shad3,shadcrystal,shad2",
-			  "shadcrystal,cs"
+              "shad3,shad2",
+			  "cs"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -160,7 +160,7 @@
           {
             "name": "Mist - Central Platform",
             "access_rules": [
-              "shadcrystal"
+              ""
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -181,7 +181,7 @@
           {
             "name": "Gerudo Desert Night Only",
             "access_rules": [
-              "shadcrystal, auru"
+              " auru"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -202,7 +202,7 @@
           {
             "name": "Gerudo Desert Night Only",
             "access_rules": [
-              "cs,shadcrystal, auru"
+              "cs, auru"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -228,21 +228,21 @@
 	    "name": "Poe before Grotto Night Only",
 		"item_count": 1,
 		"access_rules": [
-		  "shadcrystal,cs, auru"
+		  "cs, auru"
 		]
 	  },
 	  {
 	    "name": "1st Poe in the Grotto",
 		"item_count": 1,
 		"access_rules": [
-		  "shadcrystal,cs, auru"
+		  "cs, auru"
 		]
 	  },
 	  {
 	    "name": "2nd Poe in the Grotto",
 		"item_count": 1,
 		"access_rules": [
-		  "shadcrystal,cs, auru"
+		  "cs, auru"
 		]
 	  }
 	],
@@ -260,7 +260,7 @@
           {
             "name": "Gerudo Desert Only Night",
             "access_rules": [
-              "shadcrystal, auru"
+              " auru"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -281,7 +281,7 @@
           {
             "name": "After KB3(King Bulblin)",
             "access_rules": [
-              "shadcrystal, auru,"
+              " auru,"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -302,7 +302,7 @@
           {
             "name": "Before Arbiter's Grounds Night Only",
             "access_rules": [
-              "shadcrystal, auru"
+              " auru"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -328,14 +328,14 @@
 	    "name": "Poe",
 		"item_count": 1,
 		"access_rules": [
-		  "shadcrystal"
+		  ""
 		]
 	  },
 	  {
 	    "name": "Poe under the Tombstone",
 		"item_count": 1,
 		"access_rules": [
-		  "shadcrystal"
+		  ""
 		]
 	  }
 	],
@@ -353,7 +353,7 @@
           {
             "name": "Hidden Village Night Only (Reenter the Map to Reload the State)",
             "access_rules": [
-              "charm,shadcrystal"
+              "charm"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -374,8 +374,8 @@
           {
             "name": "Outside Castle Town Only Night",
             "access_rules": [
-              "shadcrystal, gate",
-              "shadcrystal, $can_smash"
+              " gate",
+              " $can_smash"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -396,8 +396,8 @@
           {
             "name": "Outside Castle Town Only Night",
             "access_rules": [
-              "shadcrystal, gate",
-              "shadcrystal, $can_smash"
+              " gate",
+              " $can_smash"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -418,7 +418,7 @@
           {
             "name": "Eldin Gorge",
             "access_rules": [
-              "shadcrystal"
+              ""
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -439,8 +439,8 @@
           {
             "name": "Eldin Gorge Longcave",
             "access_rules": [
-              "shadcrystal,lantern,$can_smash",
-			  "shadcrystal,chainball"
+              "lantern,$can_smash",
+			  "chainball"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -461,7 +461,7 @@
           {
             "name": "Hyrule Field Poe Only Night",
             "access_rules": [
-              "shadcrystal"
+              ""
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -482,8 +482,8 @@
           {
             "name": "Poe on Bridge Only Night",
             "access_rules": [
-              "shadcrystal, gate",
-              "shadcrystal, $can_smash"
+              " gate",
+              " $can_smash"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -504,8 +504,8 @@
           {
             "name": "Poes in Grotto",
             "access_rules": [
-              "shadcrystal, gate",
-              "shadcrystal, $can_smash"
+              " gate",
+              " $can_smash"
             ],
             "item_count": 2,
             "chest_unopened_img": "images/soul.png",
@@ -526,8 +526,8 @@
           {
             "name": "Poe at Stairs",
             "access_rules": [
-              "shadcrystal, gate",
-              "shadcrystal, $can_smash"
+              " gate",
+              " $can_smash"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -548,8 +548,8 @@
           {
             "name": "Poe near Great Bridge of Hylia Night Only",
             "access_rules": [
-              "shadcrystal,cs,$shoot_pew, gate",
-              "shadcrystal,cs,$shoot_pew, $can_smash"
+              "cs,$shoot_pew, gate",
+              "cs,$shoot_pew, $can_smash"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -570,7 +570,7 @@
           {
             "name": "Poe near Bombshop Ruins Night Only",
             "access_rules": [
-              "shadcrystal"
+              ""
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -591,7 +591,7 @@
           {
             "name": "Poe before Observation House Night Only",
             "access_rules": [
-              "shadcrystal"
+              ""
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -612,8 +612,8 @@
           {
             "name": "Poe - Night Only",
             "access_rules": [
-              "shadcrystal, gate",
-              "shadcrystal, $can_smash"
+              " gate",
+              " $can_smash"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -634,8 +634,8 @@
           {
             "name": "Poe - Night Only",
             "access_rules": [
-              "shadcrystal, gate",
-              "shadcrystal, $can_smash"
+              " gate",
+              " $can_smash"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -656,8 +656,8 @@
           {
             "name": "Poe - Night Only",
             "access_rules": [
-              "shadcrystal, gate",
-              "shadcrystal, $can_smash"
+              " gate",
+              " $can_smash"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -678,8 +678,8 @@
           {
             "name": "Poe - Isle of Riches Night Only (Flight by Fowl)",
             "access_rules": [
-              "shadcrystal, gate",
-              "shadcrystal, $can_smash"
+              " gate",
+              " $can_smash"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -700,8 +700,8 @@
           {
             "name": "Poe - Under the Flight by Fowl",
             "access_rules": [
-              "shadcrystal, gate",
-              "shadcrystal, $can_smash"
+              " gate",
+              " $can_smash"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -727,21 +727,21 @@
 	    "name": "1st Poe",
 		"item_count": 1,
 		"access_rules": [
-		  "shadcrystal,$can_smash"
+		  "$can_smash"
 		]
 	  },
 	  {
 	    "name": "2nd Poe",
 		"item_count": 1,
 		"access_rules": [
-		  "shadcrystal,$can_smash"
+		  "$can_smash"
 		]
 	  },
 	  {
 	    "name": "3rd Poe",
 		"item_count": 1,
 		"access_rules": [
-		  "shadcrystal,$can_smash"
+		  "$can_smash"
 		]
 	  }
 	],
@@ -764,14 +764,14 @@
 	    "name": "Poe 2nd Visit in the Grove",
 		"item_count": 1,
 		"access_rules": [
-		  "shadcrystal"
+		  ""
 		]
 	  },
 	  {
 	    "name": "Poe (Master Sword Pedestal 2nd Visit)",
 		"item_count": 1,
 		"access_rules": [
-		  "shadcrystal"
+		  ""
 		]
 	  }
 	],
@@ -789,7 +789,7 @@
           {
             "name": "Poe after getting the MS",
             "access_rules": [
-              "shadcrystal,$can_smash"
+              "$can_smash"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -805,12 +805,33 @@
         ]
       },
       {
+      "name": "Sacred Grove & Lost Woods",
+      "sections": [
+        {
+          "name": "Sacred Grove Temple of Time Owl Statue Poe",
+          "access_rules": [
+            "brokedominion, sword3"
+          ],
+          "item_count": 1,
+            "chest_unopened_img": "images/soul.png",
+            "chest_opened_img": "images/soul-grey.png"
+        }
+      ],
+      "map_locations": [
+        {
+          "map": "Poes",
+          "x": 540.96,
+          "y": 861
+        }
+      ]
+    },
+      {
         "name": "Snowpeak",
         "sections": [
           {
             "name": "Poe - Night Only",
             "access_rules": [
-              "earring,shadcrystal"
+              "earring"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -831,7 +852,7 @@
           {
             "name": "Poe - Night Only",
             "access_rules": [
-              "earring,shadcrystal"
+              "earring"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -852,7 +873,7 @@
           {
             "name": "Poe - Night Only",
             "access_rules": [
-              "earring,shadcrystal"
+              "earring,"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -873,7 +894,7 @@
           {
             "name": "Poe",
             "access_rules": [
-              "earring,chainball,shadcrystal"
+              "earring,chainball,"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -894,7 +915,7 @@
           {
             "name": "Poe - Night Only",
             "access_rules": [
-              "earring,shadcrystal"
+              "earring,"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -920,21 +941,21 @@
 	    "name": "Poe Entrance Room",
 		"item_count": 1,
 		"access_rules": [
-		  "earring,shadcrystal"
+		  "earring,"
 		]
 	  },
 	  {
 	    "name": "Poe behind Armor (Entrance)",
 		"item_count": 1,
 		"access_rules": [
-		  "chainball,earring,shadcrystal"
+		  "chainball,earring"
 		]
 	  },
 	  {
 	    "name": "Poe behind Ice Barrier",
 		"item_count": 1,
 		"access_rules": [
-		  "chainball,earring,shadcrystal"
+		  "chainball,earring"
 		]
 	  }
 	],
@@ -957,21 +978,21 @@
 	    "name": "Poe behind Gate",
 		"item_count": 1,
 		"access_rules": [
-		  "dominion,shadcrystal"
+		  "dominion"
 		]
 	  },
 	  {
 	    "name": "Poe (Giant Golden Balance Scale)",
 		"item_count": 1,
 		"access_rules": [
-		  "dominion,cs,shadcrystal"
+		  "dominion,cs"
 		]
 	  },
 	  {
 	    "name": "Before entering the Temple Poe (Move the Owl Statue)",
 		"item_count": 1,
 		"access_rules": [
-		  "dominion,shadcrystal"
+		  "dominion"
 		]
 	  }
 	],
@@ -989,8 +1010,8 @@
           {
             "name": "Poe - Night Only",
             "access_rules": [
-              "shadcrystal, gate",
-              "shadcrystal, $can_smash"
+              " gate",
+              " $can_smash"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -1011,8 +1032,8 @@
           {
             "name": "Poe - Night Only",
             "access_rules": [
-              "shadcrystal, gate",
-              "shadcrystal, $can_smash"
+              " gate",
+              " $can_smash"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",
@@ -1033,8 +1054,8 @@
           {
             "name": "Poe - Night Only",
             "access_rules": [
-              "shadcrystal, gate",
-              "shadcrystal, $can_smash"
+              " gate",
+              " $can_smash"
             ],
             "item_count": 1,
             "chest_unopened_img": "images/soul.png",

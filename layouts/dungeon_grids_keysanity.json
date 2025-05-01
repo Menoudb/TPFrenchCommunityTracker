@@ -268,17 +268,17 @@
               }
             ]
           },
-          /*{
+          {
             "type": "canvas",
-            "width": 80,
-            "height": 90,
+            "width": 70,
+            "height": 110,
             "margin": "5,5",
             "content": [
               {
                 "type": "item",
                 "item": "Zant",
                 "canvas_depth": 1,
-                "width": 80,
+                "width": 70,
                 "height": 40
               },
               {
@@ -287,21 +287,21 @@
                 "canvas_depth": 1,
                 "canvas_left": 0,
                 "canvas_top": 30,
-                "width": 40,
+                "width": 35,
                 "height": 40
               },
               {
                 "type": "item",
                 "item": "Palace_of_Twilight_Big_Key",
                 "canvas_depth": 1,
-                "canvas_left": 40,
+                "canvas_left": 35,
                 "canvas_top": 30,
-                "width": 40,
+                "width": 35,
                 "height": 40
               }
             ]
-          },*/
-          {
+          }
+/*           {
             "type": "canvas",
             "width": 70,
             "height": 110,
@@ -333,7 +333,7 @@
                 "height": 40
               }
             ]
-          }
+          } */
         ]
       }
     ]

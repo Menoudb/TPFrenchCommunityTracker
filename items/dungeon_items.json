@@ -91,28 +91,28 @@
     "name": "Mirror Shard 1",
     "type": "toggle",
     "img": "images/shard1.png",
-    "codes": "shard1"
+    "codes": "oldshard1"
   },
   // Mirror Shard 2
   {
     "name": "Mirror Shard 2",
     "type": "toggle",
     "img": "images/shard2.png",
-    "codes": "shard2"
+    "codes": "oldshard2"
   },
   // Mirror Shard 3
   {
     "name": "Mirror Shard 3",
     "type": "toggle",
     "img": "images/shard3.png",
-    "codes": "shard3"
+    "codes": "oldshard3"
   },
   // Mirror Shard 4
   {
     "name": "Mirror Shard 4",
     "type": "toggle",
     "img": "images/shard4.png",
-    "codes": "shard4"
+    "codes": "oldshard4"
   },
 
  // Fused Shadow 1 progressive
@@ -154,6 +154,10 @@
       {
 	  "img": "images/shadow1_sky.png",
 	   "codes": "shad1, sky"
+      },
+      {
+        "img": "images/shadow1_palace.png",
+         "codes": "shad1, palace"
       }
     ] 
 
@@ -199,6 +203,10 @@
       {
 	  "img": "images/shadow2_sky.png",
 	   "codes": "shad2, sky"
+      },
+      {
+        "img": "images/shadow2_palace.png",
+         "codes": "shad2, palace"
       }
     ]
   },
@@ -242,9 +250,202 @@
       {
 	  "img": "images/shadow3_sky.png",
 	   "codes": "shad3, sky"
+      },
+      {
+        "img": "images/shadow3_palace.png",
+         "codes": "shad3, palace"
       }
     ]
   },
+
+ // Mirror Shard 1 progressive
+ {
+  "name": "Mirror Shard 1 Progressive",
+  "type": "progressive_toggle",
+"loop": true,
+  "allow_disabled": false,
+
+"stages": [
+  {
+  "img": "images/shard1_null.png",
+  "codes": "shard1, null"
+  },
+    {
+  "img": "images/shard1_forest.png",
+   "codes": "shard1, forest"
+    },
+    {
+  "img": "images/shard1_mines.png",
+   "codes": "shard1, mines"
+    },
+    {
+  "img": "images/shard1_lakebed.png",
+   "codes": "shard1, lakebed"
+    },
+    {
+  "img": "images/shard1_grounds.png",
+   "codes": "shard1, grounds"
+    },
+    {
+  "img": "images/shard1_ruins.png",
+   "codes": "shard1, ruins"
+    },
+    {
+  "img": "images/shard1_time.png",
+   "codes": "shard1, time"
+    },
+    {
+  "img": "images/shard1_sky.png",
+   "codes": "shard1, sky"
+    },
+    {
+      "img": "images/shard1_palace.png",
+      "codes": "shard1, palace"
+    }
+  ]
+},
+
+ // Mirror Shard 2 progressive
+ {
+  "name": "Mirror Shard 2 Progressive",
+  "type": "progressive_toggle",
+"loop": true,
+  "allow_disabled": false,
+
+"stages": [
+  {
+  "img": "images/shard2_null.png",
+  "codes": "shard2, null"
+  },
+    {
+  "img": "images/shard2_forest.png",
+   "codes": "shard2, forest"
+    },
+    {
+  "img": "images/shard2_mines.png",
+   "codes": "shard2, mines"
+    },
+    {
+  "img": "images/shard2_lakebed.png",
+   "codes": "shard2, lakebed"
+    },
+    {
+  "img": "images/shard2_grounds.png",
+   "codes": "shard2, grounds"
+    },
+    {
+  "img": "images/shard2_ruins.png",
+   "codes": "shard2, ruins"
+    },
+    {
+  "img": "images/shard2_time.png",
+   "codes": "shard2, time"
+    },
+    {
+  "img": "images/shard2_sky.png",
+   "codes": "shard2, sky"
+    },
+    {
+      "img": "images/shard2_palace.png",
+       "codes": "shard2, palace"
+    }
+  ]
+},
+
+// Mirror Shard 3 progressive
+{
+  "name": "Mirror Shard 3 Progressive",
+  "type": "progressive_toggle",
+"loop": true,
+  "allow_disabled": false,
+
+"stages": [
+  {
+  "img": "images/shard3_null.png",
+  "codes": "shard3, null"
+  },
+    {
+  "img": "images/shard3_forest.png",
+   "codes": "shard3, forest"
+    },
+    {
+  "img": "images/shard3_mines.png",
+   "codes": "shard3, mines"
+    },
+    {
+  "img": "images/shard3_lakebed.png",
+   "codes": "shard3, lakebed"
+    },
+    {
+  "img": "images/shard3_grounds.png",
+   "codes": "shard3, grounds"
+    },
+    {
+  "img": "images/shard3_ruins.png",
+   "codes": "shard3, ruins"
+    },
+    {
+  "img": "images/shard3_time.png",
+   "codes": "shard3, time"
+    },
+    {
+  "img": "images/shard3_sky.png",
+   "codes": "shard3, sky"
+    },
+    {
+      "img": "images/shard3_palace.png",
+      "codes": "shard3, palace"
+    }
+  ]
+},
+
+// Mirror Shard 4 progressive
+{
+  "name": "Mirror Shard 4 Progressive",
+  "type": "progressive_toggle",
+"loop": true,
+  "allow_disabled": false,
+
+"stages": [
+  {
+  "img": "images/shard4_null.png",
+  "codes": "shard4, null"
+  },
+    {
+  "img": "images/shard4_forest.png",
+   "codes": "shard4, forest"
+    },
+    {
+  "img": "images/shard4_mines.png",
+   "codes": "shard4, mines"
+    },
+    {
+  "img": "images/shard4_lakebed.png",
+   "codes": "shard4, lakebed"
+    },
+    {
+  "img": "images/shard4_grounds.png",
+   "codes": "shard4, grounds"
+    },
+    {
+  "img": "images/shard4_ruins.png",
+   "codes": "shard4, ruins"
+    },
+    {
+  "img": "images/shard4_time.png",
+   "codes": "shard4, time"
+    },
+    {
+  "img": "images/shard4_sky.png",
+   "codes": "shard4, sky"
+    },
+    {
+      "img": "images/shard4_palace.png",
+      "codes": "shard4, palace"
+    }
+  ]
+},
+
   {
     "name": "Forest Big Key",
     "type": "toggle",
@@ -260,10 +461,9 @@
   },
   {
     "name": "Mines Big Key",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/mineskey2.png",
-    "codes": "Goron_Mines_Big_Key",
-    "max_quantity": 3
+    "codes": "Goron_Mines_Big_Key"
   },
   {
     "name": "Mines Small Key",
@@ -313,13 +513,13 @@
   },
   {
     "name": "Ordon Pumpkin",
-    "type": "toggle",
+    "type": "static",
     "img": "images/pumpkin2.png",
     "codes": "Ordon_Pumpkin"
   },
   {
     "name": "Ordon Goat Cheese",
-    "type": "toggle",
+    "type": "static",
     "img": "images/cheese2.png",
     "codes": "Ordon_Goat_Cheese"
   },
@@ -334,6 +534,7 @@
     "type": "consumable",
     "img": "images/smallkey.png",
     "codes": "Temple_of_Time_Small_Key",
+    "min_quantity": 1,
     "max_quantity": 3
   },
   {

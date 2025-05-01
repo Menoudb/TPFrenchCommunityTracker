@@ -4,7 +4,7 @@
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "access_rules": [
-      "sky6, cs"
+      "$canAccessCiTS"
     ],
     "children": [
       {
@@ -137,7 +137,8 @@
                   {
                     "name": "West Wing First Chest",
                     "access_rules": [
-                      "dcs"
+                      "dcs",
+                      "spinner"
                     ],
                     "item_count": 1
                   }
